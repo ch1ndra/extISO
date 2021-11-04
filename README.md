@@ -25,9 +25,9 @@ make iso9660lib
 make extiso
 
 # Usage examples
-* extiso test.iso gives you a peek into the contents of "test.iso"
-* extiso test.iso abc.txt extracts the "abc.txt" file from the root directory inside "test.iso"
-* extiso test.iso xyz/abc.txt extracts the "abc.txt" file from the "xyz" directory inside "test.iso"
+* ./extiso test.iso gives you a peek into the contents of "test.iso"
+* ./extiso test.iso abc.txt extracts the "abc.txt" file from the root directory inside "test.iso"
+* ./extiso test.iso xyz/abc.txt extracts the "abc.txt" file from the "xyz" directory inside "test.iso"
 * You can specify any number of files that you want extracted from the command line
 
 # That's all folks.
